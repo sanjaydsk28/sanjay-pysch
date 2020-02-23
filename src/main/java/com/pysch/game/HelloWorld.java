@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorld {
     @GetMapping("/")
     public  String Hello() {
-        return "Welcome to Pysch World!!";
+        return "Welcome to Pysch World";
     }
 }
